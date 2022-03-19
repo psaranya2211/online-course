@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 10:58:24</sys_created_on>
+        <sys_id>3483bd3d1bd20110ec93c803604bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_784871_online_c_employee.x_784871_online_c.employee_user</sys_name>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_security_acl display_value="x_784871_online_c_employee">7483bd3d1bd20110ec93c803604bcb44</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3483bd3d1bd20110ec93c803604bcb47</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 10:58:24</sys_updated_on>
+        <sys_user_role display_value="x_784871_online_c.employee_user" name="x_784871_online_c.employee_user">2483b93d1bd20110ec93c803604bcbf6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</application>
+        <file_path/>
+        <instance_id>160b9b65db7f2810e03ad7c8f49619d1</instance_id>
+        <instance_name>dev112653</instance_name>
+        <name>sys_security_acl_role_3483bd3d1bd20110ec93c803604bcb47</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-18 10:58:24</sys_created_on><sys_id>3483bd3d1bd20110ec93c803604bcb47</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_784871_online_c_employee.x_784871_online_c.employee_user</sys_name><sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package><sys_policy/><sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope><sys_security_acl display_value="x_784871_online_c_employee">7483bd3d1bd20110ec93c803604bcb44</sys_security_acl><sys_update_name>sys_security_acl_role_3483bd3d1bd20110ec93c803604bcb47</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-18 10:58:24</sys_updated_on><sys_user_role display_value="x_784871_online_c.employee_user" name="x_784871_online_c.employee_user">2483b93d1bd20110ec93c803604bcbf6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>338374262</payload_hash>
+        <record_name>x_784871_online_c_employee.x_784871_online_c.employee_user</record_name>
+        <reverted_from/>
+        <source>168c775d1b1e0110ec93c803604bcb3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 10:58:24</sys_created_on>
+        <sys_id>bc83bd3d1bd20110ec93c803604bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f9cadb6070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 10:58:24</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f483bd3da5d201106596219e0e160649</update_guid>
+        <update_guid_history>f483bd3da5d201106596219e0e160649:338374262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_784871_online_c_employee.x_784871_online_c.employee_user">b6853dbd1bd20110ec93c803604bcbba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 11:07:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>17dbbd7949d54ac582d38c3bb8e04449</sys_id>
+        <sys_metadata>3483bd3d1bd20110ec93c803604bcb47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_784871_online_c_employee.x_784871_online_c.employee_user</sys_name>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_parent display_value="">7483bd3d1bd20110ec93c803604bcb44</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_scope_delete display_value="">3902c2dd4268400892a74eb4893d6240</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3483bd3d1bd20110ec93c803604bcb47</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3483bd3d1bd20110ec93c803604bcb47">bc83bd3d1bd20110ec93c803604bcb49</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 11:07:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>user_id</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 12:47:32</sys_created_on>
+        <sys_id>db6c8ab11b560110ec93c803604bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_id</sys_name>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_update_name>sys_ui_policy_action_db6c8ab11b560110ec93c803604bcb33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 12:47:32</sys_updated_on>
+        <table>x_784871_online_c_user</table>
+        <ui_policy display_value="userid manadatory">d5cb02711b560110ec93c803604bcb10</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Online courses1">572fff991b9e0110ec93c803604bcb29</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Employee details</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_784871_online_c_employee</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 11:01:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c24797d1bd20110ec93c803604bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_update_name>sys_app_module_4c24797d1bd20110ec93c803604bcb14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 11:01:45</sys_updated_on>
+        <timeline_page/>
+        <title>Employee details</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</application>
+        <file_path/>
+        <instance_id>160b9b65db7f2810e03ad7c8f49619d1</instance_id>
+        <instance_name>dev112653</instance_name>
+        <name>sys_app_module_4c24797d1bd20110ec93c803604bcb14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Online courses1">572fff991b9e0110ec93c803604bcb29</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Employee details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_784871_online_c_employee</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-18 11:01:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4c24797d1bd20110ec93c803604bcb14</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee details</sys_name><sys_overrides/><sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package><sys_policy/><sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope><sys_update_name>sys_app_module_4c24797d1bd20110ec93c803604bcb14</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-18 11:01:45</sys_updated_on><timeline_page/><title>Employee details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>228517790</payload_hash>
+        <record_name>Employee details</record_name>
+        <reverted_from/>
+        <source>168c775d1b1e0110ec93c803604bcb3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 11:01:45</sys_created_on>
+        <sys_id>c244f57d1bd20110ec93c803604bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f9cb0c8820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 11:01:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0e44f57ddbd20110b92f83117f05c16b</update_guid>
+        <update_guid_history>0e44f57ddbd20110b92f83117f05c16b:228517790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee details">83853dbd1bd20110ec93c803604bcbe6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 11:07:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6d11df392c8940eda3c5d9396e61a161</sys_id>
+        <sys_metadata>4c24797d1bd20110ec93c803604bcb14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee details</sys_name>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_scope_delete display_value="">3902c2dd4268400892a74eb4893d6240</sys_scope_delete>
+        <sys_update_name>sys_app_module_4c24797d1bd20110ec93c803604bcb14</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4c24797d1bd20110ec93c803604bcb14">c244f57d1bd20110ec93c803604bcb6c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 11:07:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

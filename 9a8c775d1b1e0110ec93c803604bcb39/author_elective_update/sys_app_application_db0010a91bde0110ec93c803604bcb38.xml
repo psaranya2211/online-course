@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>courses offered to students</description>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 09:06:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db0010a91bde0110ec93c803604bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courses offered</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_update_name>sys_app_application_db0010a91bde0110ec93c803604bcb38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 09:06:27</sys_updated_on>
+        <title>Courses offered</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</application>
+        <file_path/>
+        <instance_id>160b9b65db7f2810e03ad7c8f49619d1</instance_id>
+        <instance_name>dev112653</instance_name>
+        <name>sys_app_application_db0010a91bde0110ec93c803604bcb38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>courses offered to students</description><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-17 09:06:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>db0010a91bde0110ec93c803604bcb38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Courses offered</sys_name><sys_overrides/><sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package><sys_policy/><sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope><sys_update_name>sys_app_application_db0010a91bde0110ec93c803604bcb38</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-17 09:06:27</sys_updated_on><title>Courses offered</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>435684435</payload_hash>
+        <record_name>Courses offered</record_name>
+        <reverted_from/>
+        <source>168c775d1b1e0110ec93c803604bcb3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 09:06:27</sys_created_on>
+        <sys_id>d34018691bde0110ec93c803604bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f9720dd630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 09:06:27</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>1f40186968de0110ed1e49bc709030d0</update_guid>
+        <update_guid_history>1f40186968de0110ed1e49bc709030d0:435684435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Courses offered">907050a91bde0110ec93c803604bcb67</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 09:07:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>1eb4ac2ed770451898808c6789c388e9</sys_id>
+        <sys_metadata>db0010a91bde0110ec93c803604bcb38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courses offered</sys_name>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_scope_delete display_value="">3902c2dd4268400892a74eb4893d6240</sys_scope_delete>
+        <sys_update_name>sys_app_application_db0010a91bde0110ec93c803604bcb38</sys_update_name>
+        <sys_update_version display_value="sys_app_application_db0010a91bde0110ec93c803604bcb38">d34018691bde0110ec93c803604bcbd1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 09:07:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_string_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>FETCHING DATA</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var name=g_form.getReference('u_string_1', callback);
+	
+	function callback(name)
+	{
+		g_form.setValue('city', name.city);
+		g_form.setValue('userid', name.user_id);
+		g_form.setValue('course_name',name.category);
+		
+		
+	}
+	
+		
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 15:46:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>044821211b164110ec93c803604bcb54</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FETCHING DATA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_update_name>sys_script_client_044821211b164110ec93c803604bcb54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-19 06:45:04</sys_updated_on>
+        <table>x_784871_online_c_payments</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
