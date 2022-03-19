@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="course" max_length="40" name="x_784871_online_c_course" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Course name" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IT" sequence="0" value="IT"/>
+                <element inactive_on_update="false" label="Business courses" sequence="1" value="Business courses"/>
+                <element inactive_on_update="false" label="Game development" sequence="3" value="Game development"/>
+                <element inactive_on_update="false" label="Data science and Analytics" sequence="4" value="Data science and Analytics"/>
+            </choice>
+        </element>
+        <element label="Certification" max_length="40" name="certification" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="cost" type="currency"/>
+        <element label="course duaration" max_length="40" name="course_duaration" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" label="Course Name" max_length="40" name="course_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Exam date" max_length="40" name="exam_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="expiration date" max_length="40" name="expiration_date" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Instructor" max_length="40" name="instructor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="short description" max_length="40" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DOB" max_length="40" name="u_glide_date_1" type="glide_date"/>
+    </element>
+</database>

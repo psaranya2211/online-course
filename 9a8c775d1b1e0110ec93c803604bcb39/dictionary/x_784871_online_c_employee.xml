@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee " max_length="40" name="x_784871_online_c_employee" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element choice="1" choice_field="category" choice_table="x_784871_online_c_course" label="Course name" max_length="32" name="course_name" reference_qual="category=^EQ" reference_qual_condition="category=^EQ" type="choice">
+            <choice/>
+        </element>
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element label="Employee name" max_length="40" name="employee_name" type="string"/>
+        <element label="Phone no" max_length="40" name="phone_no" type="phone_number_e164"/>
+        <index name="index">
+            <element name="course_name"/>
+        </index>
+    </element>
+</database>

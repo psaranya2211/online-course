@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_string_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>fetching data</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	alert("test");
+   //Type appropriate comment here, and begin script below
+	var username = g_form.getReference('name');
+    var gr = new GlideRecord('user');
+	gr.addQuery('name','=','username');
+    gr.query();
+    while (gr.next()){
+        gr.print('CI Name: '+gr.getValue('category'));
+		alert(gr.getValue('category'));
+    }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 12:31:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eddbf0ad1b524110ec93c803604bcb1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>fetching data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_update_name>sys_script_client_eddbf0ad1b524110ec93c803604bcb1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 12:34:20</sys_updated_on>
+        <table>x_784871_online_c_payments</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</application>
+        <file_path/>
+        <instance_id>160b9b65db7f2810e03ad7c8f49619d1</instance_id>
+        <instance_name>dev112653</instance_name>
+        <name>sys_script_client_eddbf0ad1b524110ec93c803604bcb1b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_string_1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;fetching data&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	alert("test");
+   //Type appropriate comment here, and begin script below
+	var username = g_form.getReference('name');
+    var gr = new GlideRecord('user');
+	gr.addQuery('name','=','username');
+    gr.query();
+    while (gr.next()){
+        gr.print('CI Name: '+gr.getValue('category'));
+		alert(gr.getValue('category'));
+    }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-17 12:31:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;eddbf0ad1b524110ec93c803604bcb1b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;fetching data&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online courses1" source="x_784871_online_c"&gt;9a8c775d1b1e0110ec93c803604bcb39&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online courses1"&gt;9a8c775d1b1e0110ec93c803604bcb39&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_eddbf0ad1b524110ec93c803604bcb1b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-17 12:34:20&lt;/sys_updated_on&gt;&lt;table&gt;x_784871_online_c_payments&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>7870839</payload_hash>
+        <record_name>fetching data</record_name>
+        <reverted_from/>
+        <source>168c775d1b1e0110ec93c803604bcb3b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 12:34:20</sys_created_on>
+        <sys_id>a8ef34611b924110ec93c803604bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f97df30330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 12:34:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e0ef3461c1924110ec51dabaf3ab4845</update_guid>
+        <update_guid_history>e0ef3461c1924110ec51dabaf3ab4845:7870839,4c4ff82178924110adffd3a10e204cb6:-920712680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-17 15:24:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5fec7ad5749740958e8e0cf4a2a86e99</sys_id>
+        <sys_metadata>eddbf0ad1b524110ec93c803604bcb1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fetching data</sys_name>
+        <sys_package display_value="Online courses1" source="x_784871_online_c">9a8c775d1b1e0110ec93c803604bcb39</sys_package>
+        <sys_parent display_value="Payments">f5fef31d1b9e0110ec93c803604bcb38</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online courses1">9a8c775d1b1e0110ec93c803604bcb39</sys_scope>
+        <sys_scope_delete display_value="">3902c2dd4268400892a74eb4893d6240</sys_scope_delete>
+        <sys_update_name>sys_script_client_eddbf0ad1b524110ec93c803604bcb1b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_eddbf0ad1b524110ec93c803604bcb1b">a8ef34611b924110ec93c803604bcb45</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-17 15:24:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
